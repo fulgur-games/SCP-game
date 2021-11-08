@@ -8,17 +8,8 @@ public class Inventory
 
     public Inventory()
     {
-        AddItem(new Item { itemType = Item.ItemType.Consumable, amount = 1 });
         itemList = new List<Item>();
-    }
 
-    public void AddItem(Item _item)
-    {
-        itemList.Add(_item);
-    }
-
-    public List<Item> GetItemList()
-    {
-        return itemList;
+        Debug.Log("Inventory summonned!");
     }
 }
