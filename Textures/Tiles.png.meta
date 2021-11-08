@@ -80,18 +80,6 @@ TextureImporter:
   - first:
       213: -8644279775636323431
     second: Lamp
-  - first:
-      213: 3841374895227053369
-    second: Door
-  - first:
-      213: 2398694386035660818
-    second: DoubleArmoredDoor0
-  - first:
-      213: 8976018127306389262
-    second: DoubleArmoredDoor1
-  - first:
-      213: 6930148502292774571
-    second: SingleArmoredDoor
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -714,7 +702,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,90 +710,6 @@ TextureImporter:
       bones: []
       spriteID: 9938a1ae759590880800000000000000
       internalID: -8644279775636323431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Door
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 88
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 935ac1f5d1e4f4530800000000000000
-      internalID: 3841374895227053369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoubleArmoredDoor0
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 88
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2181164d5dfd94120800000000000000
-      internalID: 2398694386035660818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SingleArmoredDoor
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 88
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baebdd76855dc2060800000000000000
-      internalID: 6930148502292774571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoubleArmoredDoor1
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 88
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0770970ee8319c70800000000000000
-      internalID: 8976018127306389262
       vertices: []
       indices: 
       edges: []

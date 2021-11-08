@@ -6,15 +6,21 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float speed;
+    public GameManager gm;
+    public Camera cam;
 
-    private Camera cam;
     private ForceMode2D mode;
     private Vector3 direction;
     private Rigidbody2D rb;
+    private Inventory inventory;
+
+    private void Awake()
+    {
+        inventory = new Inventory();
+    }
 
     private void Start()
     {
-        cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         mode = ForceMode2D.Impulse;
     }
@@ -24,7 +30,10 @@ public class Player : MonoBehaviour
         float xMove = Input.GetAxisRaw("Horizontal");
         float yMove = Input.GetAxisRaw("Vertical");
 
-        direction = new Vector3(xMove * Time.deltaTime, yMove * Time.deltaTime).normalized;
+        direction = new Vector3(
+            xMove * Time.deltaTime,
+            yMove * Time.deltaTime
+        ).normalized;
         rb.AddForce(direction * speed, mode);
 
         LookAtCursor();
@@ -41,5 +50,13 @@ public class Player : MonoBehaviour
         );
 
         transform.up = -direction;
+    }
+
+    public void OpenInventory()
+    {
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+
+        }
     }
 }
